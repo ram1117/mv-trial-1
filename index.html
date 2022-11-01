@@ -12,7 +12,11 @@
     </p>
 
     <form action="" id="survey-form">
-      <input required type="text" id="name" />
+    
+      <label for="name" id="name-label">Name</label><input required type="text" id="name" placeholder="enter your name.."/>
+      <label for="email" id="email-label">Email address</label><input type="email" id="email" placeholder="enter email..">
+      <label for="number" id="number-label">Age</label><input type="number" min ="18" max="120" id="number" placeholder="enter age..">
+
     </form>
 
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>

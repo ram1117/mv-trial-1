@@ -1,0 +1,30 @@
+*{
+    
+}
+body{
+    
+}
+#title,#description{
+    text-align: center;
+}
+#title{
+    margin-top: 10vh;
+}
+.form-container{
+    width: 70%;
+    background-color: #2d2945;
+    color: white;
+    margin: 5vh auto;
+    
+}
+#survey-form{
+    padding: 5vh;
+    display: flex;
+    flex-direction: column;
+}
+input {
+    margin-bottom: 10px;
+ }
+ label{
+    margin-bottom: 10px;;
+ }
